@@ -39,11 +39,11 @@ function App() {
   // }, []);
 
   return (
-    <section className="app size-8 w-full">
+    <section className="app size-8 w-full h-[100vh] bg-black">
      
-      <div className="grid  grid-cols-2 grid-rows-2 gap-4 p-4 h-[80vh]">
+      {/* <div className="grid  grid-cols-2 grid-rows-2 gap-4 p-4 h-[80vh]"> */}
         {/* <Map className="col-start-1 col-end-2 row-start-1 row-end-3 rounded-xl h-full w-full bg-amber-500" /> */}
-        <SafeZones
+        {/* <SafeZones
           title="Alerts"
           className="bg-gray-200 h-full w-full col-start-2 row-start-1 col-end-3 row-end-2 rounded-xl prediction border-2 border-gray-100 p-4 flex flex-col gap-4"
           colour="red"
@@ -80,7 +80,7 @@ function App() {
           </marquee>
         </SafeZones>
       </div>
-      <Footer />
+      <Footer /> */}
     </section>
   );
 }
