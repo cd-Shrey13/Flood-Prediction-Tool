@@ -3,15 +3,7 @@ import React, { useState } from "react";
 function Navbar() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
-    // <nav>
-    //     <div className="site-name">Epsilon Soplutions</div>
-    //     <div className="btn-section">
-    //         <button type='button' className='btn' onClick={() => setModalIsOpen(true)}>Call Help</button>
-    //         <DisasterContactModal isOpen={modalIsOpen}
-    // onClose={() => setModalIsOpen(false)}  />
-    //         <UserModal />
-    //     </div>
-    // </nav>
+
     <header className=" w-full h-20 flex items-center justify-center px-4 border-b-2">
       <div className="flex flex-1 items-center justify-end md:justify-between">
         <h1 className="font-bold text-3xl block text-orange-600">Team Tatva</h1>
