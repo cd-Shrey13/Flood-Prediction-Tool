@@ -1,6 +1,6 @@
 // import "./map.css"
 
-function Map({ className }) {
+function Map() {
   return (
     <iframe
       src="../..//flood_predictionn.html"
