@@ -1,3 +1,4 @@
+import React from 'react';
 // import { useState, useEffect } from "react";
 import Map from "./components/Map";
 import NoticeBox from "./components/NoticeBox";
