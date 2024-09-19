@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
    base: "./",
-  // base: "https://github.com/cd-Shrey13/Flood-Prediction-Tool/"
+  base: "./"
 })
